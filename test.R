@@ -5,7 +5,7 @@ library(ggplot2)
 scatterplot <- ggplot(diamonds, aes(x = carat, y = price, col = clarity)) + 
                   geom_point(size = 4) +
                   theme_minimal() +
-                  geom_title("Diamonds Scatterplot")
+                  ggtitle("Diamonds Scatterplot")
 
 # Saving plot
 ggsave("./plots/plot.jpg")
