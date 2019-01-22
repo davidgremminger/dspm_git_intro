@@ -9,3 +9,5 @@ scatterplot <- ggplot(diamonds, aes(x = carat, y = price, col = clarity)) +
 
 # Saving plot
 ggsave("./plots/plot.jpg")
+
+# My colleague adds a comment.
