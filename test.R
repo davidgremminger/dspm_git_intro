@@ -11,3 +11,4 @@ scatterplot <- ggplot(diamonds, aes(x = carat, y = price, col = clarity)) +
 ggsave("./plots/plot.jpg")
 
 # My colleague adds a comment.
+# I make a change
