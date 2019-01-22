@@ -2,7 +2,7 @@
 library(ggplot2)
 
 # Creating plot
-scatterplot <- ggplot(diamonds, aes(x = carat, y = price, col = clarity)) + 
+scatterplot <- ggplot(diamonds, aes(x = carat, y = price)) + 
                   geom_point(size = 4) +
                   theme_minimal() +
                   ggtitle("Diamonds Scatterplot")
